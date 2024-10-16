@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="adding some code">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/SauceDemoLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/AnnotationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/SauceDemoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/SauceDemoLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AnnotationDemo.executor": "Run",
     "TestNG.Calculator.executor": "Run",
     "TestNG.Calculator.test2.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
@@ -51,7 +51,24 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword">
+  <component name="RunManager" selected="TestNG.AnnotationDemo">
+    <configuration name="AnnotationDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.AnnotationDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calculator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -128,13 +145,16 @@
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter2" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AnnotationDemo" />
         <item itemvalue="TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword" />
         <item itemvalue="TestNG.SauceDemoLogin" />
         <item itemvalue="TestNG.Calculator" />
@@ -166,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729036842877</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding some code">
+      <option name="closed" value="true" />
+      <created>1729040655209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729040655209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
