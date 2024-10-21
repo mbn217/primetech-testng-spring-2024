@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="adding some code">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/AnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/HardAssert_SoftAssertDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/SauceDemoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/SauceDemoLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,8 @@
     "TestNG.AnnotationDemo.executor": "Run",
     "TestNG.Calculator.executor": "Run",
     "TestNG.Calculator.test2.executor": "Run",
+    "TestNG.HardAssert_SoftAssertDemo.hardAssertExample.executor": "Run",
+    "TestNG.HardAssert_SoftAssertDemo.softAssertExample.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
     "TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword.executor": "Run",
     "kotlin-language-version-configured": "true",
@@ -51,7 +52,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AnnotationDemo">
+  <component name="RunManager" selected="TestNG.HardAssert_SoftAssertDemo.softAssertExample">
     <configuration name="AnnotationDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -69,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HardAssert_SoftAssertDemo.hardAssertExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
         <pattern>
@@ -78,15 +79,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Calculator" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HardAssert_SoftAssertDemo" />
+      <option name="METHOD_NAME" value="hardAssertExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HardAssert_SoftAssertDemo.softAssertExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +97,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Calculator" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HardAssert_SoftAssertDemo" />
+      <option name="METHOD_NAME" value="softAssertExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HardAssert_SoftAssertDemo.softAssertExample" />
+        <item itemvalue="TestNG.HardAssert_SoftAssertDemo.hardAssertExample" />
         <item itemvalue="TestNG.AnnotationDemo" />
         <item itemvalue="TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword" />
         <item itemvalue="TestNG.SauceDemoLogin" />
-        <item itemvalue="TestNG.Calculator" />
-        <item itemvalue="TestNG.Calculator.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729040655209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding some code">
+      <option name="closed" value="true" />
+      <created>1729042141170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729042141170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
