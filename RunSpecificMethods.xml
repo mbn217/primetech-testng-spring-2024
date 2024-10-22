@@ -8,7 +8,8 @@
             <class name="testcases.Calculator">
                 <methods>
                     <!--     only execute below method from calculator class               -->
-                    <include name="calculatorTest"/>
+<!--                    <include name="calculatorTest"/>-->
+                    <exclude name="calculatorTest"></exclude>
 
                 </methods>
             </class>

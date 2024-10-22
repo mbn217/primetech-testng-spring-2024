@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="soft asser vs hard assert">
-      <change afterPath="$PROJECT_DIR$/RunSpecificMethods.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="xml">
+      <change afterPath="$PROJECT_DIR$/RunEntireTestCasePackage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestNgGroupsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestNgGroupsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunSpecificMethods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RunSpecificMethods.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunEntireTestCasePackage.xml.executor": "Run",
     "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunSpecificMethods.xml.executor": "Run",
     "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/testng.xml.executor": "Run",
     "TestNG.AnnotationDemo.executor": "Run",
@@ -63,7 +64,12 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunSpecificMethods.xml">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestNgGroupsExample">
     <configuration name="TestNgDependentOnExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -81,24 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDependentOnExample.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestNgDependentOnExample" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestNgGroupsExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -110,6 +98,16 @@
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.TestNgGroupsExample" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunEntireTestCasePackage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunEntireTestCasePackage.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNgGroupsExample" />
+        <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunEntireTestCasePackage.xml" />
         <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunSpecificMethods.xml" />
         <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/testng.xml" />
-        <item itemvalue="TestNG.TestNgGroupsExample" />
         <item itemvalue="TestNG.TestNgDependentOnExample" />
-        <item itemvalue="TestNG.TestNgDependentOnExample.login" />
       </list>
     </recent_temporary>
   </component>
@@ -218,12 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729559036103</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="xml">
+      <option name="closed" value="true" />
+      <created>1729561190235</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729561190235</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding some code" />
     <MESSAGE value="soft asser vs hard assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="soft asser vs hard assert" />
+    <MESSAGE value="xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml" />
   </component>
 </project>
