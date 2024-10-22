@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="adding some code">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/HardAssert_SoftAssertDemo.java" afterDir="false" />
+    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="soft asser vs hard assert">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestNgDependentOnExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestNgDescriptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestNgPrioritiesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ChallengeSoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/ChallengeSoftAssert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +44,15 @@
     "TestNG.AnnotationDemo.executor": "Run",
     "TestNG.Calculator.executor": "Run",
     "TestNG.Calculator.test2.executor": "Run",
+    "TestNG.ChallengeSoftAssert.verifyLabelsInMainPage.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.hardAssertExample.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.softAssertExample.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
     "TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword.executor": "Run",
+    "TestNG.TestNgDependentOnExample.executor": "Run",
+    "TestNG.TestNgDependentOnExample.login.executor": "Run",
+    "TestNG.TestNgDescriptionExample.executor": "Run",
+    "TestNG.TestNgPrioritiesExample.executor": "Run",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -52,8 +60,8 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.HardAssert_SoftAssertDemo.softAssertExample">
-    <configuration name="AnnotationDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestNgDependentOnExample">
+    <configuration name="ChallengeSoftAssert.verifyLabelsInMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
         <pattern>
@@ -62,25 +70,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.AnnotationDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HardAssert_SoftAssertDemo.hardAssertExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.HardAssert_SoftAssertDemo" />
-      <option name="METHOD_NAME" value="hardAssertExample" />
+      <option name="MAIN_CLASS_NAME" value="testcases.ChallengeSoftAssert" />
+      <option name="METHOD_NAME" value="verifyLabelsInMainPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardAssert_SoftAssertDemo.softAssertExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNgDependentOnExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
         <pattern>
@@ -97,25 +88,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.HardAssert_SoftAssertDemo" />
-      <option name="METHOD_NAME" value="softAssertExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SauceDemoLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.SauceDemoLogin" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestNgDependentOnExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -123,7 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceDemoLogin.loginWithValidUserNameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNgDependentOnExample.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestNgDependentOnExample" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgDescriptionExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -135,10 +126,9 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.SauceDemoLogin" />
-      <option name="METHOD_NAME" value="loginWithValidUserNameAndPassword" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestNgDescriptionExample" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -147,20 +137,35 @@
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter2" />
-      </listeners>
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgPrioritiesExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestNgPrioritiesExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HardAssert_SoftAssertDemo.softAssertExample" />
-        <item itemvalue="TestNG.HardAssert_SoftAssertDemo.hardAssertExample" />
-        <item itemvalue="TestNG.AnnotationDemo" />
-        <item itemvalue="TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword" />
-        <item itemvalue="TestNG.SauceDemoLogin" />
+        <item itemvalue="TestNG.TestNgDependentOnExample" />
+        <item itemvalue="TestNG.TestNgDependentOnExample.login" />
+        <item itemvalue="TestNG.TestNgDescriptionExample" />
+        <item itemvalue="TestNG.TestNgPrioritiesExample" />
+        <item itemvalue="TestNG.ChallengeSoftAssert.verifyLabelsInMainPage" />
       </list>
     </recent_temporary>
   </component>
@@ -204,11 +209,28 @@
       <option name="project" value="LOCAL" />
       <updated>1729042141170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="soft asser vs hard assert">
+      <option name="closed" value="true" />
+      <created>1729553145442</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729553145442</updated>
+    </task>
+    <task id="LOCAL-00005" summary="soft asser vs hard assert">
+      <option name="closed" value="true" />
+      <created>1729553487314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729553487314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding some code" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding some code" />
+    <MESSAGE value="soft asser vs hard assert" />
+    <option name="LAST_COMMIT_MESSAGE" value="soft asser vs hard assert" />
   </component>
 </project>

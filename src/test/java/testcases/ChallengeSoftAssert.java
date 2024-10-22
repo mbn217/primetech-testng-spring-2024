@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class ChallengeSoftAssert {
 
@@ -24,16 +25,24 @@ public class ChallengeSoftAssert {
         driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_user");
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
         driver.findElement(By.xpath("//input[@id='login-button']")).click();
-        Thread.sleep(5000);
-
+        Thread.sleep(1000);
+        SoftAssert softAssert = new SoftAssert();
         //find actualBackPackLabel and assert it against the AC value
         String expectedBackpackLabel = "Sauce Labs";
-        //driver.find
+        String actualBackPackLabel = driver.findElement(By.xpath("//div[.='Sauce Labs Backpack']")).getText();
+
+        softAssert.assertEquals(actualBackPackLabel , expectedBackpackLabel);
 
         //find actualBikeLightLabel and assert it against the AC value
         String expectedBikeLightLabel = "Sauce Labs Bike Light";
-        //driver.find
+        String actualBikeLightLabel = driver.findElement(By.xpath("//div[.='Sauce Labs Bike Light']")).getText();
 
+        softAssert.assertEquals(actualBikeLightLabel , expectedBikeLightLabel);
+
+        driver.close();
+
+
+        softAssert.assertAll();// put this line all the way at the end of your execution
 
     }
 
