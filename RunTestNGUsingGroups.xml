@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="This is my first suite">
+
+    <test name="Running this test using groups">
+
+
+        <!-- We need to specify what group of test we want to run (similiar to tags in cucumber)       -->
+        <groups>
+
+            <run>
+                <include name="smokeTest"/>
+            </run>
+
+        </groups>
+
+        <!--   We need to tell the xml file where to find the test cases     -->
+        <packages>
+            <package name="testcases"></package>
+        </packages>
+<!--        <classes>-->
+<!--            <class name="testcases.TestNgGroupsExample"></class>-->
+<!--        </classes>-->
+
+
+    </test>
+
+    
+</suite>

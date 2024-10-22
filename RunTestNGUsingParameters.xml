@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="This is my first suite">
+
+    <test name="Running this test using groups">
+
+        <parameter name="aaa" value="Mohamed"></parameter>
+        <parameter name="bbb" value="Nheri"></parameter>
+        
+        <classes>
+            <class name="testcases.TestNgParameterExample"></class>
+        </classes>
+        
+
+    </test>
+
+    
+</suite>

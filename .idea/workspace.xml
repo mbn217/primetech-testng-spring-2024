@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="xml">
-      <change afterPath="$PROJECT_DIR$/RunEntireTestCasePackage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTestNGUsingGroups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTestNGUsingParameters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestNgParameterExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunSpecificMethods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RunSpecificMethods.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestNgGroupsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestNgGroupsExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunEntireTestCasePackage.xml.executor": "Run",
     "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunSpecificMethods.xml.executor": "Run",
+    "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingGroups.xml.executor": "Run",
+    "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingParameters.xml.executor": "Run",
     "TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/testng.xml.executor": "Run",
     "TestNG.AnnotationDemo.executor": "Run",
     "TestNG.Calculator.executor": "Run",
@@ -55,6 +58,7 @@
     "TestNG.TestNgDependentOnExample.login.executor": "Run",
     "TestNG.TestNgDescriptionExample.executor": "Run",
     "TestNG.TestNgGroupsExample.executor": "Run",
+    "TestNG.TestNgParameterExample.demoTest.executor": "Run",
     "TestNG.TestNgPrioritiesExample.executor": "Run",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024",
@@ -68,25 +72,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="abc" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNgGroupsExample">
-    <configuration name="TestNgDependentOnExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestNgDependentOnExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingParameters.xml">
     <configuration name="TestNgGroupsExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -104,6 +94,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNgParameterExample.demoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestNgParameterExample" />
+      <option name="METHOD_NAME" value="demoTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunEntireTestCasePackage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/RunEntireTestCasePackage.xml" />
@@ -114,9 +122,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunSpecificMethods.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunSpecificMethods.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTestNGUsingGroups.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -124,9 +132,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingParameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTestNGUsingParameters.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -136,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingParameters.xml" />
+        <item itemvalue="TestNG.TestNgParameterExample.demoTest" />
+        <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingGroups.xml" />
         <item itemvalue="TestNG.TestNgGroupsExample" />
         <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunEntireTestCasePackage.xml" />
-        <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunSpecificMethods.xml" />
-        <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/testng.xml" />
-        <item itemvalue="TestNG.TestNgDependentOnExample" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729561190235</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="xml">
+      <option name="closed" value="true" />
+      <created>1729638303403</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729638303403</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

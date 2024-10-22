@@ -20,5 +20,11 @@ public class TestNgGroupsExample {
         System.out.println("verify dashboard");
     }
 
+    @Test(groups = "regression")
+    public void verifyProductLabel(){
+        System.out.println("verify Product label");
+    }
+
+
 
 }
