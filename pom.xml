@@ -38,7 +38,8 @@
                 <configuration>
 
                     <suiteXmlFiles>
-                        <suiteXmlFile>RunEntireTestCaseInParallel.xml</suiteXmlFile>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <suiteXmlFile>${xyz}</suiteXmlFile>
                     </suiteXmlFiles>
 
                 </configuration>
