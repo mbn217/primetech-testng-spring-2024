@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="This is my first suite" parallel="methods" thread-count="2">
+
+    <test name="Running test cases in parallel">
+        
+        <classes>
+            <class name="testcases.SauceDemoLogin"></class>
+            <class name="testcases.SauceDemoLogin2"></class>
+        </classes>
+
+
+    </test>
+
+    
+</suite>
