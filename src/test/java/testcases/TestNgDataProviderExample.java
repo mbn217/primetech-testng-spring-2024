@@ -31,5 +31,42 @@ public class TestNgDataProviderExample {
         System.out.println(username);
     }
 
+    //--------------------------- Example 2-----------------
+
+    @DataProvider(name = "data-provider-username-password")
+    public Object[][] dataProvideForUserNameAndPassword(){
+        Object[][] userNameAndPassword = {{"primetech","primepassword", 23}, { "prime2User" , "prime2pass" ,24}  };
+        return userNameAndPassword;
+    }
+
+
+
+    @Test(dataProvider = "data-provider-username-password")
+    public void loginUsingUserNameAndPassword(String username, String password , int age){
+        System.out.println("Username is " +username);
+        System.out.println("Password is " + password);
+        System.out.println("age is " + age);
+
+    }
+
+
+    //--------------------------- Example 3 -----------------
+
+
+    @DataProvider(name ="data-provider-calculator")
+    public Object[][] dataProviderCalculator(){
+        Object[][] number = { {3,3}  , { 4,5}  , { 6,8 } , {10,5}  };
+        return number;
+    }
+
+    @Test(dataProvider = "data-provider-calculator")
+    public void calculator(int number1, int number2){
+        int total = number1 + number2;
+        System.out.println("The total of adding " +number1 + " and " + number2 +" is " + total);
+
+    }
+
+
+
 
 }
