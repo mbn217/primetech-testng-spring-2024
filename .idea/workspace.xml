@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="xml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/DemoExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestNgDataProviderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestNgDataProviderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DemoExcel.executor": "Run",
     "Maven.primetech-testng-spring-2024 [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -78,7 +81,20 @@
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNgDataProviderExample.loginUsingUserNameAndPassword">
+  <component name="RunManager" selected="Application.DemoExcel">
+    <configuration name="DemoExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testcases.DemoExcel" />
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNgDataProviderExample.calculator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -143,23 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoExcel" />
         <item itemvalue="TestNG.TestNgDataProviderExample.loginUsingUserNameAndPassword" />
         <item itemvalue="TestNG.TestNgDataProviderExample.calculator" />
         <item itemvalue="TestNG.TestNgDataProviderExample.myTest" />
         <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingParameters.xml" />
-        <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729647529212</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="xml">
+      <option name="closed" value="true" />
+      <created>1729813557670</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729813557670</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
