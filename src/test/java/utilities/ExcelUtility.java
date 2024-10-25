@@ -43,9 +43,43 @@ public class ExcelUtility {
         return rowCount;
     }
 
+    /**
+     *
+     * @return the number of column present in the Excel sheet
+     */
     public static int getColCount(){
         int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
         return colCount;
+    }
+
+    /**
+     *
+     * @param rowNumber the row number where the cell is located
+     * @param colNumber the col number where the cell is located
+     * @return the value of the cell at the specific row and col numbers
+     */
+    public static String getCellDataString(int rowNumber , int colNumber){
+        String cellData = sheet.getRow(rowNumber).getCell(colNumber).getStringCellValue();
+        return cellData;
+    }
+
+    /**
+     *
+     * @return two dimentional array of the excel sheet
+     */
+    public static Object[][] getDataSet(){
+        int rowCount = ExcelUtility.getRowCount();
+        int colCount = ExcelUtility.getColCount();
+
+        Object[][] data = new Object[rowCount][colCount];
+
+        for (int i = 0; i < rowCount ; i++) {
+            for (int j = 0; j < colCount; j++) {
+                String cellData = getCellDataString(i,j);
+                data[i][j] = cellData;
+            }
+        }
+        return data;
     }
 
 

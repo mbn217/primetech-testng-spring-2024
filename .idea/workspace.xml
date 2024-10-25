@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/DemoExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" afterDir="false" />
+    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="excel utitlity">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/SauceDemoLoginUsingDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/DemoExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/DemoExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "TestNG.HardAssert_SoftAssertDemo.softAssertExample.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
     "TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword.executor": "Run",
+    "TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword.executor": "Run",
     "TestNG.TestNgDataProviderExample.calculator.executor": "Run",
     "TestNG.TestNgDataProviderExample.loginUsingUserNameAndPassword.executor": "Run",
     "TestNG.TestNgDataProviderExample.myTest.executor": "Run",
@@ -81,7 +82,7 @@
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoExcel">
+  <component name="RunManager" selected="TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword">
     <configuration name="DemoExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testcases.DemoExcel" />
       <module name="primetech-testng-spring-2024" />
@@ -91,6 +92,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SauceDemoLoginUsingDataProvider" />
+      <option name="METHOD_NAME" value="loginWithValidUserNameAndPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,23 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingParameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTestNGUsingParameters.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" />
         <item itemvalue="Application.DemoExcel" />
         <item itemvalue="TestNG.TestNgDataProviderExample.loginUsingUserNameAndPassword" />
         <item itemvalue="TestNG.TestNgDataProviderExample.calculator" />
         <item itemvalue="TestNG.TestNgDataProviderExample.myTest" />
-        <item itemvalue="TestNG./Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/RunTestNGUsingParameters.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -297,13 +306,38 @@
       <option name="project" value="LOCAL" />
       <updated>1729813557670</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="excel utitlity">
+      <option name="closed" value="true" />
+      <created>1729817675062</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729817675062</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding some code" />
     <MESSAGE value="soft asser vs hard assert" />
     <MESSAGE value="xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml" />
+    <MESSAGE value="excel utitlity" />
+    <option name="LAST_COMMIT_MESSAGE" value="excel utitlity" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcases/SauceDemoLoginUsingDataProvider.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
