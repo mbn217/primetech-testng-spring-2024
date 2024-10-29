@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="restassured">
-      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/Example2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     "TestNG.ChallengeSoftAssert.verifyLabelsInMainPage.executor": "Run",
     "TestNG.Example1.demoOne.executor": "Run",
     "TestNG.Example1.demoTwo.executor": "Run",
+    "TestNG.Example2.testCaseOne.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.hardAssertExample.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.softAssertExample.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
@@ -81,7 +82,7 @@
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Example1.demoOne">
+  <component name="RunManager" selected="TestNG.Example2.testCaseOne">
     <configuration name="DemoExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testcases.DemoExcel" />
       <module name="primetech-testng-spring-2024" />
@@ -131,6 +132,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example2.testCaseOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.Example2" />
+      <option name="METHOD_NAME" value="testCaseOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -149,31 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDataProviderExample.loginUsingUserNameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestNgDataProviderExample" />
-      <option name="METHOD_NAME" value="loginUsingUserNameAndPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Example2.testCaseOne" />
         <item itemvalue="TestNG.Example1.demoOne" />
         <item itemvalue="TestNG.Example1.demoTwo" />
         <item itemvalue="TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" />
         <item itemvalue="Application.DemoExcel" />
-        <item itemvalue="TestNG.TestNgDataProviderExample.loginUsingUserNameAndPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730244132126</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="restassured">
+      <option name="closed" value="true" />
+      <created>1730244709647</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730244709647</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
