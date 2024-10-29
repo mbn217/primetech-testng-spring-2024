@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="excel utitlity">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/SauceDemoLoginUsingDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/Example1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/DemoExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/DemoExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
     "TestNG.Calculator.executor": "Run",
     "TestNG.Calculator.test2.executor": "Run",
     "TestNG.ChallengeSoftAssert.verifyLabelsInMainPage.executor": "Run",
+    "TestNG.Example1.demoOne.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.hardAssertExample.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.softAssertExample.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
@@ -82,7 +82,7 @@
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword">
+  <component name="RunManager" selected="TestNG.Example1.demoOne">
     <configuration name="DemoExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testcases.DemoExcel" />
       <module name="primetech-testng-spring-2024" />
@@ -92,6 +92,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example1.demoOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.Example1" />
+      <option name="METHOD_NAME" value="demoOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,31 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDataProviderExample.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestNgDataProviderExample" />
-      <option name="METHOD_NAME" value="myTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Example1.demoOne" />
         <item itemvalue="TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" />
         <item itemvalue="Application.DemoExcel" />
         <item itemvalue="TestNG.TestNgDataProviderExample.loginUsingUserNameAndPassword" />
         <item itemvalue="TestNG.TestNgDataProviderExample.calculator" />
-        <item itemvalue="TestNG.TestNgDataProviderExample.myTest" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729817675062</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="excel utitlity">
+      <option name="closed" value="true" />
+      <created>1729820758752</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729820758752</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
