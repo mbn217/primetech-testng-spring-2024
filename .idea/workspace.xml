@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="restassured">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/Example1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Example1.demoTwo">
+  <component name="RunManager" selected="TestNG.Example1.demoOne">
     <configuration name="DemoExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testcases.DemoExcel" />
       <module name="primetech-testng-spring-2024" />
@@ -170,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Example1.demoTwo" />
         <item itemvalue="TestNG.Example1.demoOne" />
+        <item itemvalue="TestNG.Example1.demoTwo" />
         <item itemvalue="TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" />
         <item itemvalue="Application.DemoExcel" />
         <item itemvalue="TestNG.TestNgDataProviderExample.loginUsingUserNameAndPassword" />
@@ -330,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730165911021</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="restassured">
+      <option name="closed" value="true" />
+      <created>1730244132126</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730244132126</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
