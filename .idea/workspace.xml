@@ -52,6 +52,7 @@
     "TestNG.Example1.demoOne.executor": "Run",
     "TestNG.Example1.demoTwo.executor": "Run",
     "TestNG.Example2.testCaseOne.executor": "Run",
+    "TestNG.Example2.testCaseThree.executor": "Run",
     "TestNG.Example2.testCaseTwo.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.hardAssertExample.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.softAssertExample.executor": "Run",
@@ -84,7 +85,7 @@
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Example2.testCaseTwo">
+  <component name="RunManager" selected="TestNG.Example2.testCaseThree">
     <configuration name="Example1.demoOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -139,6 +140,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example2.testCaseThree" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.Example2" />
+      <option name="METHOD_NAME" value="testCaseThree" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Example2.testCaseTwo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -157,31 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.SauceDemoLoginUsingDataProvider" />
-      <option name="METHOD_NAME" value="loginWithValidUserNameAndPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Example2.testCaseThree" />
         <item itemvalue="TestNG.Example2.testCaseTwo" />
         <item itemvalue="TestNG.Example2.testCaseOne" />
         <item itemvalue="TestNG.Example1.demoOne" />
         <item itemvalue="TestNG.Example1.demoTwo" />
-        <item itemvalue="TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730247658076</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="restassured">
+      <option name="closed" value="true" />
+      <created>1730250212473</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730250212474</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
