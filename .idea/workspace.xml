@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="restassured">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw/HomeWork1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/Example2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,8 @@
     "TestNG.Example2.testCaseTwo.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.hardAssertExample.executor": "Run",
     "TestNG.HardAssert_SoftAssertDemo.softAssertExample.executor": "Run",
+    "TestNG.HomeWork1.test1.executor": "Run",
+    "TestNG.HomeWork1.test2.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
     "TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword.executor": "Run",
     "TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword.executor": "Run",
@@ -85,61 +87,7 @@
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Example2.testCaseThree">
-    <configuration name="Example1.demoOne" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api_tests" />
-      <option name="MAIN_CLASS_NAME" value="api_tests.Example1" />
-      <option name="METHOD_NAME" value="demoOne" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example1.demoTwo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api_tests" />
-      <option name="MAIN_CLASS_NAME" value="api_tests.Example1" />
-      <option name="METHOD_NAME" value="demoTwo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example2.testCaseOne" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api_tests" />
-      <option name="MAIN_CLASS_NAME" value="api_tests.Example2" />
-      <option name="METHOD_NAME" value="testCaseOne" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.HomeWork1">
     <configuration name="Example2.testCaseThree" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
@@ -176,13 +124,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeWork1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw" />
+      <option name="MAIN_CLASS_NAME" value="hw.HomeWork1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw" />
+      <option name="MAIN_CLASS_NAME" value="hw.HomeWork1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork1.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw" />
+      <option name="MAIN_CLASS_NAME" value="hw.HomeWork1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeWork1" />
+        <item itemvalue="TestNG.HomeWork1.test2" />
+        <item itemvalue="TestNG.HomeWork1.test1" />
         <item itemvalue="TestNG.Example2.testCaseThree" />
         <item itemvalue="TestNG.Example2.testCaseTwo" />
-        <item itemvalue="TestNG.Example2.testCaseOne" />
-        <item itemvalue="TestNG.Example1.demoOne" />
-        <item itemvalue="TestNG.Example1.demoTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +396,8 @@
     <MESSAGE value="xml" />
     <MESSAGE value="excel utitlity" />
     <MESSAGE value="restassured" />
-    <option name="LAST_COMMIT_MESSAGE" value="restassured" />
+    <MESSAGE value="homework 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
