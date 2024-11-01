@@ -40,18 +40,17 @@ public class PostExample3 {
     public void postExampleOption2(){
         //Option 1 using the body as a JSON String
         RestAssured.baseURI = "https://reqres.in";
-        JSONObject requestBody = new JSONObject();
-        requestBody.put("name", "morpheus");
-        requestBody.put("job", "leader");
-
-
         /**
          * Serialization --> The process of converting a data object (like json, java object) into a format
          * that could be easily transmitted
          * Deserialization --> The reverse process of serialization, it involves converting data like json or
          * xml back into java object
+         * We need below code to help us serialize the Java Object into json
+         * Meaning converting the java object into json
          */
-
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("name", "morpheus");
+        requestBody.put("job", "leader");
 
         Response response = RestAssured.given()
                 .header("Content-Type","application/json")//optional
