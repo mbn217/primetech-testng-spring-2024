@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="homework 1">
-      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/PostExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/PostExample3.java" afterDir="false" />
+    <list default="true" id="bc9ce03b-7ba5-4250-86f0-b5916b39251a" name="Changes" comment="homework 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/JSONSchemaValidatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/PutExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/json-schema-example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw/HomeWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw/HomeWork2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +63,11 @@
     "TestNG.HomeWork1.executor": "Run",
     "TestNG.HomeWork1.test1.executor": "Run",
     "TestNG.HomeWork1.test2.executor": "Run",
+    "TestNG.HomeWork2.createNewPet.executor": "Run",
+    "TestNG.JSONSchemaValidatorExample.schemaValidatoExampleForPetStoreGetRequest.executor": "Run",
     "TestNG.PostExample3.postExample.executor": "Run",
     "TestNG.PostExample3.postExampleOption2.executor": "Run",
+    "TestNG.PutExample4.putExample.executor": "Run",
     "TestNG.SauceDemoLogin.executor": "Run",
     "TestNG.SauceDemoLogin.loginWithValidUserNameAndPassword.executor": "Run",
     "TestNG.SauceDemoLoginUsingDataProvider.loginWithValidUserNameAndPassword.executor": "Run",
@@ -73,7 +81,7 @@
     "TestNG.TestNgParameterExample.demoTest.executor": "Run",
     "TestNG.TestNgPrioritiesExample.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024",
+    "last_opened_file_path": "/Users/mohamednheri/Desktop/primetech-workspace/primetech-testng-spring-2024/src/test",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.58325666",
@@ -82,15 +90,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api_tests" />
       <recent name="testcases" />
       <recent name="abc" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PostExample3.postExampleOption2">
-    <configuration name="HomeWork1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JSONSchemaValidatorExample.schemaValidatoExampleForPetStoreGetRequest">
+    <configuration name="HomeWork2.createNewPet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
         <pattern>
@@ -99,25 +109,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hw" />
-      <option name="MAIN_CLASS_NAME" value="hw.HomeWork1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="primetech-testng-spring-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw" />
-      <option name="MAIN_CLASS_NAME" value="hw.HomeWork1" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="hw.HomeWork2" />
+      <option name="METHOD_NAME" value="createNewPet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork1.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSONSchemaValidatorExample.schemaValidatoExampleForPetStoreGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="primetech-testng-spring-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw.*" />
+          <option name="PATTERN" value="api_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hw" />
-      <option name="MAIN_CLASS_NAME" value="hw.HomeWork1" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.JSONSchemaValidatorExample" />
+      <option name="METHOD_NAME" value="schemaValidatoExampleForPetStoreGetRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -179,13 +172,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PutExample4.putExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="primetech-testng-spring-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.PutExample4" />
+      <option name="METHOD_NAME" value="putExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JSONSchemaValidatorExample.schemaValidatoExampleForPetStoreGetRequest" />
+        <item itemvalue="TestNG.PutExample4.putExample" />
+        <item itemvalue="TestNG.HomeWork2.createNewPet" />
         <item itemvalue="TestNG.PostExample3.postExampleOption2" />
         <item itemvalue="TestNG.PostExample3.postExample" />
-        <item itemvalue="TestNG.HomeWork1.test2" />
-        <item itemvalue="TestNG.HomeWork1" />
-        <item itemvalue="TestNG.HomeWork1.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730419184716</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="homework 2">
+      <option name="closed" value="true" />
+      <created>1730420637999</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730420637999</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -415,7 +434,8 @@
     <MESSAGE value="excel utitlity" />
     <MESSAGE value="restassured" />
     <MESSAGE value="homework 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 1" />
+    <MESSAGE value="homework 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
